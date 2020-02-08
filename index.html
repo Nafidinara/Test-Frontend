@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- made by : Alfara Nafi Dinara
+      date : 2020/02/07 -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Test Front-End</title>
+  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <img src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-256.png" id="hamburger"/>
+  <!-- start the navbar -->
+  <nav class="navbar navbar-default d-flex container-navbar" style="background-color:#ddd;">
+    <div class="d-flex align-items-center">
+      <div class="navbar-brand">
+        <a class="logo" href="#"><img src="/assets/img/logogram.png" alt="logo"></a>
+        <a class="logo-type ml-2" href="#"><img src="/assets/img/logo-type.png" alt="logo-type"></a>
+      </div>
+
+      <div class="menu ml-lg-2">
+        <ul class="navbar-nav container-list">
+          <li class="nav-item ml-lg-4 pr-lg-4"><a class="navigasi" href="#">Promo</a></li>
+          <li class="nav-item ml-lg-4 pr-lg-4"><a class="navigasi" href="#">Menjadi Tuan Rumah</a></li>
+          <li class="nav-item ml-lg-4 pr-lg-4"><a class="navigasi" href="#">Blog de'Kostel</a></li>
+          <li class="nav-item ml-lg-4 pr-lg-4"><a class="navigasi" href="#">Bantuan</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="btn-kanan">
+      <div onclick="location.href='#';" class="masuk" style="background-color: #009944; width: 100px; height: 85px;">
+        <img src="/assets/img/icon-masuk.png" alt="icon-masuk" max-width="40px" max-height="40px">
+        <h6">Masuk</h6">
+      </div>
+      <div onclick="location.href='#';" class="daftar" style="background-color: #E86302; width: 100px; height:85px;">
+        <img src="/assets/img/icon-daftar.png" alt="icon-daftar" max-width="40px" max-height="40px">
+        <h6>Daftar</h6>
+      </div>
+    </div>
+  </nav>
+  <!-- end the navbar -->
+
+  <!-- start the content -->
+  <section>
+    <div align="center" class="mt-5">
+      <h3>Kos Terbaik di <strong>Gading Serpong</strong>, <strong>BSD</strong> dan <strong>Karawaci</strong></h3>
+    </div>
+
+    <!-- wrap of three card -->
+    <div class="card-deck">
+
+      <!--Start first Card-->
+      <div class="card">
+        <div class="slideshow-container">
+          <div class="mySlides1">
+            <img class="card-img-top" src="/assets/img/foto1.jpg" alt="Card image cap">
+          </div>
+          <div class="mySlides1">
+            <img class="card-img-top" src="/assets/img/foto2.jpeg" alt="Card image cap">
+          </div>
+          <div class="mySlides1">
+            <img class="card-img-top" src="/assets/img/foto3.jpeg" alt="Card image cap">
+          </div>
+
+          <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides1(1)">&#10095;</a>
+        </div>
+
+        <div class="card-body judul-card" style="background-color: #E86302;">
+          <div class="d-flex" style="justify-content: space-between;">
+            <div>
+              <p class="card-title">Area <br> BSD</p>
+            </div>
+            <div class="text-right">
+              <p class="card-title">Mulai<br>Rp. 1.500.000,-/bln</p>
+            </div>
+          </div>
+          <div class="kamar">
+            <h5 align="left">Ketersediaan : <strong>7 Kamar lagi</strong></h5>
+          </div>
+        </div>
+
+        <div class="card-body d-flex pb-0 justify-content-between isi-card">
+          <div>
+            <p>@Regentown</p>
+          </div>
+          <div>
+            <div class="align-content-center">
+              <p>1 Rumah<span><img src="/assets/img/hotel.png" alt="icon"
+                    style="width: 30px; height: 30px; margin-left: 10px;"></span></p>
+            </div>
+            <div class="align-content-center">
+              <p>10 kamar<span><img src="/assets/img/kamar.png" alt="icon"
+                    style="width: 30px; height: 30px; margin-left: 10px;"></span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer pl-2">
+          <li class="item ml-0"><img src="/assets/img/check-in.png" alt=""></li>
+          <li class="item"><img src="/assets/img/elevator.png" alt=""></li>
+          <li class="item"><img src="/assets/img/hotel-sign.png" alt=""></li>
+          <li class="item"><img src="/assets/img/television.png" alt=""></li>
+        </div>
+      </div>
+      <!--End of First Card-->
+
+      <!--Start second Card-->
+      <div class="card">
+        <div class="slideshow-container">
+          <div class="mySlides3">
+            <img class="card-img-top" src="/assets/img/foto1.jpg" alt="Card image cap">
+          </div>
+          <div class="mySlides3">
+            <img class="card-img-top" src="/assets/img/foto2.jpeg" alt="Card image cap">
+          </div>
+          <div class="mySlides3">
+            <img class="card-img-top" src="/assets/img/foto3.jpeg" alt="Card image cap">
+          </div>
+
+          <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+        </div>
+
+        <div class="card-body judul-card" style="background-color: #E86302;">
+          <div class="d-flex" style="justify-content: space-between;">
+            <div>
+              <p class="card-title">Area <br> Gading Serpong</p>
+            </div>
+            <div class="text-right">
+              <p class="card-title">Mulai<br>Rp. 1.200.000,-/bln</p>
+            </div>
+          </div>
+          <div class="kamar">
+            <h5 align="left">Ketersediaan : <strong>12 Kamar lagi</strong></h5>
+          </div>
+        </div>
+
+        <div class="card-body d-flex pb-0 justify-content-between isi-card">
+          <div>
+            <p>@ClusterAllogio</p>
+          </div>
+          <div>
+            <div class="align-content-center">
+              <p>3 Rumah<span><img src="/assets/img/hotel.png" alt="icon"
+                    style="width: 30px; height: 30px; margin-left: 10px;"></span></p>
+            </div>
+            <div class="align-content-center">
+              <p>15 kamar<span><img src="/assets/img/kamar.png" alt="icon"
+                    style="width: 30px; height: 30px; margin-left: 10px;"></span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer pl-2">
+          <li class="item ml-0"><img src="/assets/img/check-in.png" alt=""></li>
+          <li class="item"><img src="/assets/img/elevator.png" alt=""></li>
+          <li class="item"><img src="/assets/img/hotel-sign.png" alt=""></li>
+          <li class="item"><img src="/assets/img/television.png" alt=""></li>
+        </div>
+      </div>
+      <!--End of Second Card-->
+
+      <!--Start 3rd Card-->
+      <div class="card">
+        <div class="slideshow-container">
+          <div class="mySlides2">
+            <img class="card-img-top" src="/assets/img/foto1.jpg" alt="Card image cap">
+          </div>
+          <div class="mySlides2">
+            <img class="card-img-top" src="/assets/img/foto2.jpeg" alt="Card image cap">
+          </div>
+          <div class="mySlides2">
+            <img class="card-img-top" src="/assets/img/foto3.jpeg" alt="Card image cap">
+          </div>
+
+          <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+        </div>
+
+        <div class="card-body judul-card" style="background-color: #E86302;">
+          <div class="d-flex" style="justify-content: space-between;">
+            <div>
+              <p class="card-title">Area <br> BSD</p>
+            </div>
+            <div class="text-right">
+              <p class="card-title">Mulai<br>Rp. 1.500.000,-/bln</p>
+            </div>
+          </div>
+          <div class="kamar">
+            <h5 align="left">Ketersediaan : <strong>7 Kamar lagi</strong></h5>
+          </div>
+        </div>
+
+        <div class="card-body d-flex pb-0 justify-content-between isi-card">
+          <div>
+            <p>@Regentown</p>
+          </div>
+          <div>
+            <div class="align-content-center">
+              <p>1 Rumah<span><img src="/assets/img/hotel.png" alt="icon"
+                    style="width: 30px; height: 30px; margin-left: 10px;"></span></p>
+            </div>
+            <div class="align-content-center">
+              <p>10 kamar<span><img src="/assets/img/kamar.png" alt="icon"
+                    style="width: 30px; height: 30px; margin-left: 10px;"></span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer pl-2">
+          <li class="item ml-0"><img src="/assets/img/check-in.png" alt=""></li>
+          <li class="item"><img src="/assets/img/elevator.png" alt=""></li>
+          <li class="item"><img src="/assets/img/hotel-sign.png" alt=""></li>
+          <li class="item"><img src="/assets/img/television.png" alt=""></li>
+        </div>
+      </div>
+      <!--End of 3rd Card-->
+    </div>
+    <!-- End of wrap three card -->
+
+
+    <!-- wrap of three card -->
+    <div class="card-deck">
+
+      <!--Start the first card-->
+      <div class="card">
+        <div class="slideshow-container">
+          <div class="mySlides4">
+            <img class="card-img-top" src="/assets/img/foto1.jpg" alt="Card image cap">
+          </div>
+          <div class="mySlides4">
+            <img class="card-img-top" src="/assets/img/foto2.jpeg" alt="Card image cap">
+          </div>
+          <div class="mySlides4">
+            <img class="card-img-top" src="/assets/img/foto3.jpeg" alt="Card image cap">
+          </div>
+
+          <a class="prev" onclick="plusSlides4(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides4(1)">&#10095;</a>
+        </div>
+
+        <div class="card-body judul-card" style="background-color: #E86302;">
+          <div class="d-flex" style="justify-content: space-between;">
+            <div>
+              <p class="card-title">Area <br> Gading Serpong</p>
+            </div>
+            <div class="text-right">
+              <p class="card-title">Mulai<br>Rp. 1.500.000,-/bln</p>
+            </div>
+          </div>
+          <div class="kamar">
+            <h5 align="left">Ketersediaan : <strong>3 Kamar lagi</strong></h5>
+          </div>
+        </div>
+
+        <div class="card-body d-flex pb-0 justify-content-between isi-card">
+          <div>
+            <p>Kost Alesha <br>@VannyaparkBSD</p>
+          </div>
+          <div>
+            <div class="align-content-center">
+              <p>1 Rumah<span><img src="/assets/img/hotel.png" alt="icon"
+                    style="width: 30px; height: 30px; margin-left: 10px;"></span></p>
+            </div>
+            <div class="align-content-center">
+              <p>10 kamar<span><img src="/assets/img/kamar.png" alt="icon"
+                    style="width: 30px; height: 30px; margin-left: 10px;"></span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer pl-2">
+          <li class="item ml-0"><img src="/assets/img/check-in.png" alt=""></li>
+          <li class="item"><img src="/assets/img/elevator.png" alt=""></li>
+          <li class="item"><img src="/assets/img/hotel-sign.png" alt=""></li>
+          <li class="item"><img src="/assets/img/television.png" alt=""></li>
+        </div>
+      </div>
+      <!--End of the first card-->
+
+      <!--Start the second card-->
+      <div class="card">
+        <div class="slideshow-container">
+          <div class="mySlides5">
+            <img class="card-img-top" src="/assets/img/foto1.jpg" alt="Card image cap">
+          </div>
+          <div class="mySlides5">
+            <img class="card-img-top" src="/assets/img/foto2.jpeg" alt="Card image cap">
+          </div>
+          <div class="mySlides5">
+            <img class="card-img-top" src="/assets/img/foto3.jpeg" alt="Card image cap">
+          </div>
+
+          <a class="prev" onclick="plusSlides5(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides5(1)">&#10095;</a>
+        </div>
+
+        <div class="card-body judul-card" style="background-color: #E86302;">
+          <div class="d-flex" style="justify-content: space-between;">
+            <div>
+              <p class="card-title">Area <br> BSD</p>
+            </div>
+            <div class="text-right">
+              <p class="card-title">Mulai<br>Rp. 1.500.000,-/bln</p>
+            </div>
+          </div>
+          <div class="kamar">
+            <h5 align="left">Ketersediaan : <strong>7 Kamar lagi</strong></h5>
+          </div>
+        </div>
+
+        <div class="card-body d-flex pb-0 justify-content-between isi-card">
+          <div>
+            <p>@Regentown</p>
+          </div>
+          <div>
+            <div class="align-content-center">
+              <p>1 Rumah<span><img src="/assets/img/hotel.png" alt="icon"
+                    style="width: 30px; height: 30px; margin-left: 10px;"></span></p>
+            </div>
+            <div class="align-content-center">
+              <p>10 kamar<span><img src="/assets/img/kamar.png" alt="icon"
+                    style="width: 30px; height: 30px; margin-left: 10px;"></span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer pl-2">
+          <li class="item ml-0"><img src="/assets/img/check-in.png" alt=""></li>
+          <li class="item"><img src="/assets/img/elevator.png" alt=""></li>
+          <li class="item"><img src="/assets/img/hotel-sign.png" alt=""></li>
+          <li class="item"><img src="/assets/img/television.png" alt=""></li>
+        </div>
+      </div>
+      <!--End of the second card-->
+
+      <!--Start the 3rd card-->
+      <div class="card">
+        <div class="slideshow-container">
+          <div class="mySlides6">
+            <img class="card-img-top" src="/assets/img/foto1.jpg" alt="Card image cap">
+          </div>
+          <div class="mySlides6">
+            <img class="card-img-top" src="/assets/img/foto2.jpeg" alt="Card image cap">
+          </div>
+          <div class="mySlides6">
+            <img class="card-img-top" src="/assets/img/foto3.jpeg" alt="Card image cap">
+          </div>
+
+          <a class="prev" onclick="plusSlides6(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides6(1)">&#10095;</a>
+        </div>
+
+        <div class="card-body judul-card" style="background-color: #E86302;">
+          <div class="d-flex" style="justify-content: space-between;">
+            <div>
+              <p class="card-title">Area <br> Karawaci</p>
+            </div>
+            <div class="text-right">
+              <p class="card-title">Mulai<br>Rp. 1.500.000,-/bln</p>
+            </div>
+          </div>
+          <div class="kamar">
+            <h5 align="left">Ketersediaan : <strong>7 Kamar lagi</strong></h5>
+          </div>
+        </div>
+
+        <div class="card-body d-flex pb-0 justify-content-between isi-card">
+          <div>
+            <p>@Anartha House</p>
+          </div>
+          <div>
+            <div class="align-content-center">
+              <p>1 Rumah<span><img src="/assets/img/hotel.png" alt="icon"
+                    style="width: 30px; height: 30px; margin-left: 10px;"></span></p>
+            </div>
+            <div class="align-content-center">
+              <p>10 kamar<span><img src="/assets/img/kamar.png" alt="icon"
+                    style="width: 30px; height: 30px; margin-left: 10px;"></span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer pl-2">
+          <li class="item ml-0"><img src="/assets/img/check-in.png" alt=""></li>
+          <li class="item"><img src="/assets/img/elevator.png" alt=""></li>
+          <li class="item"><img src="/assets/img/hotel-sign.png" alt=""></li>
+          <li class="item"><img src="/assets/img/television.png" alt=""></li>
+        </div>
+      </div>
+      <!--End of the 3rd card-->
+    </div>
+    <!-- End wrap of three card -->
+
+  </section>
+  <!-- End of the content -->
+
+  <!-- action button -->
+  <div class="d-flex justify-content-center mt-lg-5">
+    <button type="button" class="btn tombol btn-lg btn-success col-4">Lihat Selengkapnya</button>
+  </div>
+  <!-- action button -->
+
+  <!-- start footer content -->
+  <div class="mt-lg-5 d-flex wrap-footer" style="width: 100%; height: 245px; background-color: #009944;">
+    <div class="d-flex footer" style="height:245px; width: 280px; background-color: #efefef;">
+      <img src="/assets/img/logogram-big.png" alt="logo" class="m-auto">
+    </div>
+
+    <div class="footer-text">
+      <p><strong>de'KOSTel</strong> adalah sebuah platform dari <strong>PT.Mitra Dekostel Utama</strong> dalam hal
+        pengelolaan <br>
+        kost-kostan yang menghubungkan pemilik, pengelola dan penyewa dalam sebuah <strong>Sistem <br>
+          Manajemen Kost</strong> yang multifungsi dan mudah dalam pengelolaannya.
+      </p>
+      <p>
+        Mencari Kost di sekitar <strong>Gading Serpong, BSD</strong> dan <strong>Karawaci</strong> dengan properti
+        terbaik, pengelola <br>
+        yang responsif dan dengan harga hemat hanya ada disini. Pilih properti yang Anda inginkan, <br>
+        <strong>pesan, lihat</strong> dan <strong>bayar.</strong>
+      </p>
+      <p>
+        Anda memiliki properti yang ingin kami kelola? <strong>Daftarkan properti anda disini</strong> dan kami akan
+        <br>
+        peluang investasi yang sangat <strong>mudah dikelola</strong> dengan <strong>hasil maksimal.</strong>
+      </p>
+    </div>
+    <div class="ml-2 mt-3 logo-contact">
+      <h3><strong>Follow kami :</strong></h3>
+      <p style='line-height: 20px'>
+        <img src='/assets/img/facebook.png' style="vertical-align: middle; width: 25px; height: 25px;" /> fb.me/dekostel
+      </p>
+      <p style='line-height: 20px'>
+        <img src='/assets/img/twitter.png' style="vertical-align: middle; width: 25px; height: 25px;" /> @dekostel
+      </p>
+      <p style='line-height: 20px'>
+        <img src='/assets/img/instagram.png' style="vertical-align: middle; width: 25px; height: 25px;" /> @dekostel
+      </p>
+      <p style='line-height: 20px'>
+        <img src='/assets/img/youtube.png' style="vertical-align: middle; width: 25px; height: 25px;" /> goo.gl/dekostel
+      </p>
+    </div>
+  </div>
+  <!-- end of footer content -->
+
+
+  <!-- Footer -->
+  <div>
+    <footer class="page-footer pt-5">
+
+      <!-- Footer Links -->
+      <div class="container-fluid text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-sm-3 mb-md-0 mb-5">
+
+            <!-- Links -->
+            <h5> <strong>Tentang de'KOSTel</strong></h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a class="navigasi" href="#!">Profil PT. Mitra Dekostel Utama</a>
+              </li>
+              <li>
+                <a class="navigasi" href="#!">Tim Manajemen</a>
+              </li>
+              <li>
+                <a class="navigasi" href="#!">Legalitas Perusahaan</a>
+              </li>
+              <li>
+                <a class="navigasi" href="#!">Partner Kami</a>
+              </li>
+              <li>
+                <a class="navigasi" href="#!">Karir</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+          <div class="col-sm-2 mb-md-0 mb-5">
+
+            <!-- Links -->
+            <h5> <strong>Area de'KOSTel</strong></h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a class="navigasi" href="#!">Gading Serpong</a>
+              </li>
+              <li>
+                <a class="navigasi" href="#!">BSD</a>
+              </li>
+              <li>
+                <a class="navigasi" href="#!">Karawaci</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <hr class="clearfix w-100 d-md-none pb-3">
+
+          <!-- Grid column -->
+          <div class="col-sm-2 mb-md-0 mb-5 ml-4">
+
+            <!-- Links -->
+            <h5> <strong>Penyewa</strong></h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a class="navigasi" href="#!">Mencari Properti</a>
+              </li>
+              <li>
+                <a class="navigasi" href="#!">Menjadi Penyewa</a>
+              </li>
+              <li>
+                <a class="navigasi" href="#!">Panduan Penyewa</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-sm-2 mb-md-0 mb-5 ml-4">
+
+            <!-- Links -->
+            <h5> <strong>Tuan Rumah</strong></h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a class="navigasi" href="#!">Menjadi Tuan Rumah</a>
+              </li>
+              <li>
+                <a class="navigasi" href="#!">Cara Kerja de'KOSTel</a>
+              </li>
+              <li>
+                <a class="navigasi" href="#!">Panduan Tuan Rumah</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </div>
+    </footer>
+    <div class=" d-flex footer-copyright pt-3 justify-content-between"
+      style="background-color: rgba(0, 0, 0, 0.856); color: white !important; padding: 0px 80px;">
+      <div>
+        <p>©Copyright 2019 | PT. Mitra Dekostel Utama</p>
+      </div>
+      <div>
+        <ul class="navbar-nav mr-auto container-list">
+          <li class="nav-item">
+            <a class="nav-footer" href="#!">Kebijakan Privasi | </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-footer" href="#!">Syarat Ketentuan | </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-footer" href="#!">Pusat Bantuan | </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-footer" href="#!"> Hubungi Kami</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+
+  <script src="/assets/js/style.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</body>
+</html>
